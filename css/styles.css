@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#main {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(213, 210, 210, 0.632);
+	border-radius: 5px;
+}
+#header {
+  padding: 30px 0;
+	text-align: center;
+}
+#title {
+  letter-spacing: .7;
+	font-size: 50px;
+}
+#subtitle {
+  font-size: 15px;
+  font-weight: 400;
+}
+#img-div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  padding: 30px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 5px;
+	box-shadow: 30px 20px 50px rgba(0, 0, 0, 0.315);
+	max-width: 90%;
+	margin: 0 auto;
+}
+#image {
+  max-width: 80%;
+  height: auto;
+	border-radius: 5px;
+}
+#img-caption {
+	margin-top: 15px;
+	font-size: 1.1em;
+	max-width: 600px;
+	text-align: center;
+}
+#tribute-info {
+	padding: 70px 0 30px 0;
+	text-align: center;
+}
+#list {
+	margin: 30px auto;
+	list-style-type: disc;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	min-height: 900px;
+	max-width: 660px;
+}
+.list_item {
+	text-align: left;
+	line-height: 1.8;
+	margin-top: 10px;
+}
+.list_item-year {
+	font-weight: 600;
+}
+.quote {
+	margin: 0 auto;
+	max-width: 680px;
+	text-align: left;
+	font-style: italic;
+}
+.quote-name {
+	display: block;
+	margin-top: 20px;
+}
+#tribute-text {
+	font-weight: 600;
+	margin-top: 30px;
+	font-size: 1.2em;
+	padding: 0 20px;
+}
+#tribute-link {
+	color: rgb(15, 90, 175);
+	text-decoration: none;
+}
+
+@media (max-width: 425px) {
+	#title {
+		font-size: 2em;
+	}
+	#subtitle {
+		font-size: .6em;
+	}
+	#img-div {
+		box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.315);
+	}
+	#img-caption {
+		font-size: .5em;
+	}
+	#tribute-info {
+		padding: 40px 0 30px 0;
+	}
+	#tribute-info__title {
+		font-size: .9em;
+	}
+	#list {
+		max-width: 300px;
+		margin-top: 20px;
+	}
+	.list_item {
+		font-size: .7em;
+		line-height: 1.5;
+	}
+	.quote {
+		max-width: 330px;
+		font-size: .7em;
+	}
+	#tribute-text {
+		font-size: .8em;
+	}
+}
